@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  iris-service:
+    hostname: localhost
+    image: intersystems/irishealth-community-arm64:2022.3.0.539.0
+    container_name: iris-intro
+    volumes:
+      - ${PWD}/compartida/:/compartida
+    ports:
+      - 9091:51773
+      - 9092:52773

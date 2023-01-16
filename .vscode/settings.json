@@ -1,0 +1,12 @@
+{
+    
+    "objectscript.conn": {
+        "password": "1234",
+        "username": "superuser",
+        "port": 9092,
+        "active": true,
+        "server": "iris",
+        "ns": "USER"
+    }
+
+}
